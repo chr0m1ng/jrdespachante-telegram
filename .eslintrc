@@ -1,0 +1,44 @@
+{
+    "extends": [
+        "airbnb-base",
+        "plugin:prettier/recommended"
+    ],
+    "env": {
+        "es6": true,
+        "jest": true
+    },
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+        "requireConfigFile": false,
+        "babelOptions": {
+            "plugins": [
+                "@babel/plugin-syntax-import-assertions"
+            ]
+        }
+    },
+    "rules": {
+        "no-console": "off",
+        "camelcase": "off",
+        "class-methods-use-this": "off",
+        "radix": "off",
+        "consistent-return": "off",
+        "no-underscore-dangle": "off",
+        "no-var": [
+            "error"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "comma-dangle": [
+            "error",
+            "never"
+        ],
+        "import/no-named-as-default-member": "off",
+        "import/prefer-default-export": "off",
+        "import/extensions": "off",
+        "no-plusplus": "off",
+        "no-promise-executor-return": "off",
+        "no-param-reassign": "off"
+    }
+}

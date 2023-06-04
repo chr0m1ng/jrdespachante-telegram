@@ -1,0 +1,12 @@
+{
+    "seq": {
+        "server_url": null,
+        "api_key": null
+    },
+    "database": {
+        "mongo": {
+            "connection_string": "mongodb+srv://<username>:<password>@<server>",
+            "database": "<database>"
+        }
+    }
+}
